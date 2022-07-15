@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azizul Hakim Rony</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header id="home" class=" body-font bg-slate-50">
+
+        <section
+            class="container text-black text-lg font-medium mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+
+                <span class="ml-3 text-3xl font-bold text-red-400">My World</span>
+            </a>
+            <nav
+                class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900 hover:border-b-2 hover:border-rose-600" href="#home">Home</a>
+                <a class="mr-5 hover:text-gray-900 hover:border-b-2 hover:border-rose-600" href="#about">About</a>
+                <a class="mr-5 hover:text-gray-900 hover:border-b-2 hover:border-rose-600" href="#service">Services</a>
+                <a class="mr-5 hover:text-gray-900 hover:border-b-2 hover:border-rose-600" href="#">Portfolio</a>
+                <a class="mr-5 hover:text-gray-900 hover:border-b-2 hover:border-rose-600" href="#pricing">Pricing</a>
+                <a class="mr-5 hover:text-gray-900 hover:border-b-2 hover:border-rose-600" href="#contact">Contact</a>
+            </nav>
+            <button
+                class="my-12 border-2 border-rose-600 rounded-full w-52 px-6 h-12 py-2 text-black focus:outline-none hover:bg-rose-600 hover:text-white">
+                BUY NOW
+            </button>
+        </section>
+
+
+        <section class=" container p-48">
+            <div class="text-rose-500 font-bold tracking-widest my-6">
+                <p>FULL STUCK WEB DEVELOPER</p>
+            </div>
+            <div class="text-6xl font-black text-cyan-400 my-6">
+                <p>Hello, I’m Azizul Hakim Rony. Welcome to my World.</p>
+            </div>
+            <div
+                class="my-12 border-2 border-rose-600 bg-rose-600 rounded-full w-52 px-6 h-12 py-2 text-white hover:bg-white hover:text-rose-600">
+                <button type="button">DOWNLOAD MY
+                    CV</button>
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+
+        <section id="about" class=" container grid grid-cols-3 gap-4 px-48 py-8">
+            <div>
+                <div><img src="images/my photo.jpg" alt=""></div>
+            </div>
+
+
+            <div class="col-span-2 pl-12">
+                <div class="text-sky-500 text-lg font-semibold tracking-wide my-4">
+                    <p><span class="text-rose-600">My About </span>Details</p>
+                </div>
+                <div>
+                    <p class="font-bold tracking-wide text-3xl">About Me</p>
+                </div>
+                <div class="my-4 font-sans antialiased font-normal tracking-normal">
+                    <p>There are many variations of
+                        passages of Lorem Ipsumavailable, but the majority have suffered alteration in some form, by
+                        injected humour, or randomised words which dont look even slightly believable. If you are going
+                        to
+                        use a passage of Lorem Ipsum,</p>
+                </div>
+
+
+
+                <!--class="md:ml-auto md:mr-auto flex flex-wrap border-2 border-rose-600 rounded-full h-12 items-center justify-between px-3">-->
+                <div id="London" class="tabcontent text-2xl">
+                    <p>User experience design - UI/UX
+                        Delight the user and make it work.</p>
+                    <p>Web and user interface design - Development
+                        Websites, web experiences, ...</p>
+                    <p>Interaction design - Animation
+                        I like to move it move it.</p>
+                </div>
+
+                <div id="Paris" class="tabcontent text-2xl">
+                    <p>Awwwards.com - Winner
+                        2019 - 2020</p>
+                    <p>CSS Design Awards - Winner
+                        2017 - 2018</p>
+                    <p> Design nominees - site of the day
+                        2013- 2014</p>
+                </div>
+
+                <div id="Tokyo" class="tabcontent text-2xl">
+                    <p>Sr. Front-end Engineer - Google
+                        2018 - Current</p>
+                    <p>Front-end Engineer - Microsoft
+                        2017 - 2018</p>
+                    <p>Software Engineer - Alibaba
+                        2013- 2014</p>
+                </div>
+
+                <div id="Oslo" class="tabcontent text-2xl">
+                    <p>BSc In CSE - ABC University, Los Angeles, CA
+                        2010</p>
+                    <p> Diploma in Computer Science - Gamma Technical Institute
+                        2009</p>
+                    <p>Graphic Designer - ABC Institute, Los Angeles, CA
+                        2007</p>
+                </div>
+
+                <button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">Main Skils</button>
+                <button class="tablink" onclick="openCity('Paris', this, 'green')">Awards</button>
+                <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Experience</button>
+                <button class="tablink" onclick="openCity('Oslo', this, 'orange')">Education</button>
+
+
+
+            </div>
+        </section>
+
+        <section id="service" class="container bg-slate-100 px-48 py-8">
+
+            <div class="text-center">
+                <div>
+                    <p class="text-sky-500 text-lg font-semibold tracking-wide my-4">What <span class="text-rose-600">I
+                            can
+                            do</span> for you</p>
+                </div>
+                <div>
+                    <h1 class="font-bold tracking-wide text-5xl">My Awesome Service</h1>
+                </div>
+                <div>
+                    <p class="my-4 font-sans antialiased font-normal tracking-normal">There are many variations of
+                        passages
+                        of Lorem Ipsum available,
+                        but the majority have suffered alteration.</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-3 gap-4 mt-16">
+                <!--border rounded-lg border-rose-300 shadow-2xl -->
+                <!--transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300-->
+                <div
+                    class="shadow-2xl p-6 transition ease-in-out delay-150 hover:scale-110 hover:bg-rose-500 hover:text-white duration-300">
+
+                    <button type="button">
+                        <div class="py-4"><img src="" alt=""></div>
+                        <div class="text-3xl font-semibold tracking-normal font-sans">
+                            <h1>Business Stratagy</h1>
+                        </div>
+                        <div class="text-lg font-normal tracking-normal py-4">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                        </div>
+                    </button>
+
+                </div>
+                <div
+                    class="shadow-2xl p-6 transition ease-in-out delay-150 hover:scale-110 hover:bg-rose-500 hover:text-white duration-300">
+                    <button type=" button">
+                        <div class="py-4"><img src="" alt=""></div>
+                        <div class="text-3xl font-semibold tracking-normal font-sans">
+                            <h1>Website Development</h1>
+                        </div>
+                        <div class="text-lg font-normal tracking-normal py-4">
+                            <p>It is a long established fact that a reader will be distracted by the readable.</p>
+                        </div>
+                    </button>
+                </div>
+                <div
+                    class=" shadow-2xl p-6 transition ease-in-out delay-150 hover:scale-110 hover:bg-rose-500 hover:text-white duration-300">
+                    <button type="button">
+                        <div class="py-4"><img src="" alt=""></div>
+                        <div class="text-3xl font-semibold tracking-normal font-sans">
+                            <h1>Marketing & Reporting</h1>
+                        </div>
+                        <div class="text-lg font-normal tracking-normal py-4">
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in all.
+                            </p>
+                        </div>
+                    </button>
+                </div>
+                <div
+                    class="shadow-2xl p-6 transition ease-in-out delay-150 hover:scale-110 hover:bg-rose-500 hover:text-white duration-300">
+                    <button type="button">
+                        <div class="py-4"><img src="" alt=""></div>
+                        <div class="text-3xl font-semibold tracking-normal font-sans">
+                            <h1>Mobile Development</h1>
+                        </div>
+                        <div class="text-lg font-normal tracking-normal py-4">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                        </div>
+                    </button>
+                </div>
+                <div
+                    class="shadow-2xl p-6 transition ease-in-out delay-150 hover:scale-110 hover:bg-rose-500 hover:text-white duration-300">
+                    <button type="button">
+                        <div class="py-4"><img src="" alt=""></div>
+                        <div class="text-3xl font-semibold tracking-normal font-sans">
+                            <h1>Marketing & Reporting</h1>
+                        </div>
+                        <div class="text-lg font-normal tracking-normal py-4">
+                            <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+                                section.
+                            </p>
+                        </div>
+                    </button>
+                </div>
+                <div
+                    class="shadow-2xl p-6 transition ease-in-out delay-150 hover:scale-110 hover:bg-rose-500 hover:text-white duration-300">
+                    <button type="button">
+                        <div class="py-4"><img src="" alt=""></div>
+                        <div class="text-3xl font-semibold tracking-normal font-sans">
+                            <h1>App Development
+                            </h1>
+                        </div>
+                        <div class="text-lg font-normal tracking-normal py-4">
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+                            </p>
+                        </div>
+                    </button>
+
+                </div>
+        </section>
+
+        <section id="pricing" class="container px-48 py-8">
+            <div class="text-center">
+                <div class="text-sky-500 text-lg font-semibold tracking-wide my-4">
+                    <p>My <span class="text-rose-600">Budget Plan</span></p>
+                </div>
+                <div class="font-bold tracking-wide text-3xl">
+                    <p>Pricing Plan</p>
+                </div>
+                <div class="my-4 font-sans antialiased font-normal tracking-normal">
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-3 gap-4 ">
+                <div class="border rounded">
+                    <div class="border-b-4 border-sky-300 text-center">
+                        <p class="text-3xl font-medium tracking-wide font-sans py-4">Basic</p>
+                        <p class="text-7xl font-medium tracking-wide font-sans text-rose-600">$45</p>
+                        <p class="text-xl font-light tracking-wider font-sans py-4">USD Per Month</p>
+                    </div>
+                    <div class="px-8 my-8">
+                        <ul class=" list-disc list-outside">
+                            <li>
+                                <p class="text-2xl font-normal tracking-normal font-sans py-4">5 PPC Campaigns Per Day
+                                </p>
+                            </li>
+                            <li>
+                                <p class="text-2xl font-normal tracking-normal font-sans py-4">10 Digital Marketing</p>
+                            </li>
+                            <li>
+                                <p class="text-2xl font-normal tracking-normal font-sans py-4">10 Marketing Agency</p>
+                            </li>
+                            <li>
+                                <p class="text-2xl font-normal tracking-normal font-sans py-4">10 Facebook Marketing</p>
+                            </li>
+                            <li>
+                                <p class="text-2xl font-normal tracking-normal font-sans py-4">10 Video Camplaigns</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="text-center"><button type="button"
+                            class="my-12 border-2 border-rose-600 bg-rose-600 rounded-full w-52 h-12 py-2 text-white hover:bg-white hover:text-rose-600">PURCHASE
+                            NOW</button></div>
+
+
+
+
+
+
+
+
+                </div>
+                <div class="border rounded bg-rose-600 text-white">
+                    <div class="border-b-4 border-sky-300 text-center">
+                        <p class="text-3xl font-medium tracking-wide font-sans py-4">Medium</p>
+                        <p class="text-7xl font-medium tracking-wide font-sans ">$99</p>
+                        <p class="text-xl font-light tracking-wider font-sans py-4">USD Per Month</p>
+                    </div>
+                    <div class="px-8 my-8">
+                        <ul class=" list-disc list-outside">
+                            <li>
+                                <p class="text-2xl font-normal tracking-normal font-sans py-4">50 PPC Campaigns Per Day
+                                </p>
+                            </li>
+                            <li>
+                                <p class="text-2xl font-normal tracking-normal font-sans py-4">100 Digital Marketing</p>
+                            </li>
+                            <li>
+                                <p class="text-2xl font-normal tracking-normal font-sans py-4">100 Marketing Agency</p>
+                            </li>
+                            <li>
+                                <p class="text-2xl font-normal tracking-normal font-sans py-4">100 Facebook Marketing
+                                </p>
+                            </li>
+                            <li>
+                                <p class="text-2xl font-normal tracking-normal font-sans py-4">100 Video Camplaigns</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="text-center"><button type="button"
+                            class="my-12 border-2 border-rose-600 bg-white rounded-full w-52 h-12 py-2 text-rose-600 hover:scale-y-110 hover:delay-100">PURCHASE
+                            NOW</button></div>
+
+
+
+                </div>
+                <div class="border rounded">
+                    <div class="border-b-4 border-sky-300 text-center">
+                        <p class="text-3xl font-medium tracking-wide font-sans py-4">Adavnced</p>
+                        <p class="text-7xl font-medium tracking-wide font-sans text-rose-600">$199</p>
+                        <p class="text-xl font-light tracking-wider font-sans py-4">USD Per Month</p>
+                    </div>
+                    <div class="px-8 my-8">
+                        <ul class=" list-disc list-outside">
+                            <li>
+                                <p class="text-2xl font-normal tracking-normal font-sans py-4">5 PPC Campaigns Per Day
+                                </p>
+                            </li>
+                            <li>
+                                <p class="text-xl font-normal tracking-normal font-sans py-4">Unlimited Digital
+                                    Marketing</p>
+                            </li>
+                            <li>
+                                <p class="text-xl font-normal tracking-normal font-sans py-4">Unlimited Marketing
+                                    Agency</p>
+                            </li>
+                            <li>
+                                <p class="text-xl font-normal tracking-normal font-sans py-4">Unlimited Facebook
+                                    Marketing</p>
+                            </li>
+                            <li>
+                                <p class="text-xl font-normal tracking-normal font-sans py-4">Unlimited Video
+                                    Camplaigns</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="text-center"><button type="button"
+                            class="my-12 border-2 border-rose-600 bg-rose-600 rounded-full w-52 h-12 py-2 text-white hover:bg-white hover:text-rose-600">PURCHASE
+                            NOW</button></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container bg-slate-100 px-48 ">
+            <div>
+                <p class="text-sky-500 text-lg font-semibold tracking-wide my-4 pt-4">Let's Say <span
+                        class="text-rose-600">Hi</span></p>
+                <p class="font-bold tracking-wide text-3xl py-4">Hire Me.</p>
+                <p class="tracking-wide text-3xl">Call us directly: +111 (0)55 5869 8976</p>
+                <p class="tracking-wide text-3xl">Contact Email: example@gmail.com</p>
+            </div>
+            <div class="bg-green-300 w-3/4 p-8 mt-8">
+
+                <div>
+                    <input id="user-email" class="border-2 border-purple-800 rounded-md block w-3/4 my-3 px-4"
+                        type="text" name="" placeholder="Enter Your Name">
+
+                    <input id="user-password" class="border-2 border-purple-800 rounded-md block w-3/4 my-3 px-4"
+                        type="password" name="" placeholder="Enter Your Email ">
+                    <input id="user-password" class="border-2 border-purple-800 rounded-md block w-3/4 h-24 my-3 px-4"
+                        type="password" name="" placeholder="Your Massage ">
+
+                    <button id='login-btn' class="bg-red-400 px-4 rounded py-2 text-white font-semibold">
+                        Submit
+                    </button>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="bg-rose-400 my-12">
+                <footer class="text-gray-600 body-font">
+                    <div
+                        class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+                        <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+                            <a
+                                class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                                </svg>
+                                <span class="ml-3 text-xl">Azizul Hakim</span>
+                            </a>
+                            <p class="mt-2 text-sm text-gray-500">Explore yourself</p>
+                        </div>
+                        <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+                            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES
+                                </h2>
+                                <nav class="list-none mb-10">
+                                    <li>
+                                        <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                                    </li>
+                                </nav>
+                            </div>
+                            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES
+                                </h2>
+                                <nav class="list-none mb-10">
+                                    <li>
+                                        <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                                    </li>
+                                </nav>
+                            </div>
+                            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES
+                                </h2>
+                                <nav class="list-none mb-10">
+                                    <li>
+                                        <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                                    </li>
+                                </nav>
+                            </div>
+                            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES
+                                </h2>
+                                <nav class="list-none mb-10">
+                                    <li>
+                                        <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                                    </li>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                            <p class="text-gray-500 text-sm text-center sm:text-left">© 2022 My World —
+                                <a href="https://twitter.com/knyttneve" rel="noopener noreferrer"
+                                    class="text-gray-600 ml-1" target="_blank">@Azizul Hakim Rony</a>
+                            </p>
+                            <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                                <a class="text-gray-500">
+                                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-3 text-gray-500">
+                                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-3 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-3 text-gray-500">
+                                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path stroke="none"
+                                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                        </path>
+                                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
